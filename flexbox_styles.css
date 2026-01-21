@@ -1,0 +1,31 @@
+/* 
+TODO: Add styles to match the layout in the image.
+Note: you should only need to use flexbox properties and margin/padding to create the layout.
+*/
+
+
+
+/* 
+Challenge: Use flexbox in media queries to create a responsive layout 
+*/
+
+header {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+}
+
+.nav-link {
+    padding: 0.5rem;
+}
+
+.user-actions {
+    
+}
